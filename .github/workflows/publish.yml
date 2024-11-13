@@ -14,14 +14,14 @@ jobs:
         spack -e . install
         echo "$(pwd)/.spack-env/view/bin" >> $GITHUB_PATH
 
-    - run: hugo --gc --minify
+    - run: hugo --gc --minify --baseURL "https://alecbcs.github.io"
 
     - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa
       with:
         path: public/
 
   deploy:
-    if: github.ref == 'refs/heads/main'
+    # if: github.ref == 'refs/heads/main'
     needs: build
     permissions:
       pages: write

@@ -50,6 +50,8 @@ disableHugoGeneratorInject = false
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
 
+  colorScheme  = "ocean"
+
   # Metadata mostly used in document's head
   #
   description = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
