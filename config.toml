@@ -107,13 +107,13 @@ disableHugoGeneratorInject = false
   [[menu.main]]
     identifier = "get-started"
     name       = "Get Started"
-    url        = "/get-started"
+    url        = "get-started"
     weight     = 1
 
   [[menu.main]]
     identifier = "blog"
     name       = "Blog"
-    url        = "/posts"
+    url        = "posts"
     weight     = 2
 
   [[menu.main]]
@@ -168,12 +168,12 @@ disableHugoGeneratorInject = false
   [[menu.footer]]
     identifier = "ci-status"
     name       = "CI Status"
-    url        = "/ci-status"
+    url        = "ci-status"
 
   [[menu.footer]]
     identifier = "events"
     name       = "Events"
-    url        = "/events"
+    url        = "events"
 
   [[menu.footer]]
     identifier = "slack-footer"
