@@ -13,9 +13,12 @@ showPagination: false
 Clone Spack from GitHub and you're ready to go:
 
 ```shell
-git clone https://github.com/spack/spack.git
-. spack/share/spack/setup-env.sh
-spack install hdf5
+$ git clone -c feature.manyFiles=true --depth=2 https://github.com/spack/spack.git
+$ . spack/share/spack/setup-env.sh
+```
+
+```shell
+$ spack install hdf5
 ```
 
 ## Custom versions & configurations

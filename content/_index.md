@@ -21,7 +21,7 @@ microarchitectures](https://spack.readthedocs.io/en/latest/basic_usage.html#supp
 
 ### Quickstart
 ```shell
-git clone -c feature.manyFiles=true https://github.com/spack/spack.git
+git clone -c feature.manyFiles=true --depth=2 https://github.com/spack/spack.git
 . spack/share/spack/setup-env.sh
 ```
 ```shell

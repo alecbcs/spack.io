@@ -115,20 +115,6 @@
             me-14
           {{- end }} cursor-pointer text-sm text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
         >
-          <button id="appearance-switcher-0" type="button" aria-label="appearance switcher">
-            <div
-              class="flex h-12 w-12 items-center justify-center dark:hidden"
-              title="{{ i18n "footer.dark_appearance" }}"
-            >
-              {{ partial "icon.html" "moon" }}
-            </div>
-            <div
-              class="hidden h-12 w-12 items-center justify-center dark:flex"
-              title="{{ i18n "footer.light_appearance" }}"
-            >
-              {{ partial "icon.html" "sun" }}
-            </div>
-          </button>
         </div>
       {{ end }}
     </div>
