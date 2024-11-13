@@ -1,5 +1,4 @@
 ---
-title: "Welcome to Spack!"
 description: "A flexible package manager supporting multiple versions, configurations, platforms, and compilers."
 ---
 
